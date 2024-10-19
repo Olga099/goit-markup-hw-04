@@ -403,25 +403,30 @@ max-width: 264px;
     display: inline-block;
     margin-bottom: 16px;
 }
+.page-footer {
+    display: flex;
+    align-items: baseline;
+}
+.footer-logo-text {
+    margin-right: 120px;
+}
+.footer-team-soc-list {
+display: flex;
+gap: 16px;
+}
+
+
+
+
 
 .footer-team-soc-link {
     width: 40px;
     height: 40px;
     background-color: #4d5ae5;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.fotter-soc-link {
-    display: flex;
-    align-items: baseline;
-    margin-right: 120px;
-}
-
 .footer-soc-text {
 font-family: "Roboto",
         sans-serif;
